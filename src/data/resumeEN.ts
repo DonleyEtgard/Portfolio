@@ -66,16 +66,21 @@ const resumeEN: ResumeData = {
         description: 'Digital marketplace platform connecting buyers and sellers for trading vehicles, real estate, products, and services. Features include listing management, personalized seller dashboards, private messaging, real-time chat, chatbot-assisted interactions, and integrated payment and collection management. Designed to centralize buying and selling operations, simplify communication, and provide an accessible digital commerce experience. Key Modules: Marketplace, Seller Dashboard, Buyer/Seller Chat, PayPal & NatCash Integration, Ratings, Subscription Plans. Technologies: ASP.NET Core MVC, C#, Entity Framework Core, SQL Server, JavaScript, Bootstrap, Service Workers, i18n.',
       },
       {
-        title: 'IT Support Specialist | Help Desk L1',
-        subtitle: 'IT Support | Universidad Abierta Interamericana (UAI) — Rosario, Argentina',
-        period: '2025 Present',
-        description: 'Diagnosed and resolved hardware, software, and connectivity issues, providing on-site technical support to faculty and students. Configured computers (PCs and NUCs) and institutional peripherals to ensure optimal performance. Prepared technical reports and tracked incident resolutions using internal tracking systems.',
-      },
-      {
-        title: 'Customer Service Agent - Metrickal Cianiao',
-        period: '2024',
-        description: 'Provided multi-channel user support via ticketing systems and calls, managing technical incidents and performing basic access administration. Assisted users with remote troubleshooting, diagnosing issues efficiently to ensure minimal downtime. Escalated complex technical issues to higher support tiers while maintaining clear communication with users throughout the process.',
-      },
+       title: 'IT Support Specialist | Help Desk L1',
+       subtitle: 'IT Support | Universidad Abierta Interamericana (UAI) — Rosario, Argentina',
+       period: '2025 – Present',
+       description: 'Provided first-level technical support to faculty, students, and institutional staff, diagnosing and troubleshooting hardware, software, operating system, and network connectivity issues. Performed preventive and corrective maintenance on desktop computers, PCs, and NUC devices, including software configuration, peripheral setup, and performance optimization. Managed incident reports, documented technical issues, monitored resolution progress, and escalated complex cases when necessary. Assisted users with institutional applications and technical requirements, ensuring reliable IT operations and minimizing service disruptions.'
+     },
+     {
+      title: 'Customer Service Agent | Technical Support – Metrickal (Cianio)',
+      period: 'Nov 2024 – Mar 2025',
+      description: 'Provided multi-channel customer and technical support to international users and clients through phone calls, email, and ticketing platforms. Managed, documented, and followed up on support requests using Zendesk, ensuring accurate incident tracking and timely communication. Assisted customers with software usage, account access, basic administration, and connectivity issues, performing remote troubleshooting and first-level diagnostics to identify and resolve technical problems. Used email communication tools, including AliMail, to handle customer inquiries, provide guidance, and maintain clear and professional communication. Escalated complex incidents to higher support tiers when necessary, monitored their progress, and followed up with users to ensure effective resolution and customer satisfaction.'
+     },
+     {
+      title: 'Full Stack Software Developer | Freelancer',
+      period: '2025 – Present',
+      description: 'Designed and developed custom software solutions and web applications for independent projects, including an ERP management system and a multi-category Marketplace platform. Worked across frontend and backend development using C#, ASP.NET Core, React, Tailwind, Bootstrap, JavaScript, TypeScript, and Node.js, Python. Designed and integrated REST APIs, implemented business logic, and developed features for user authentication, role-based access control, dashboards, inventory, sales, billing, and subscription management. Worked with SQL Server, PostgreSQL, MySQL, and MongoDB to design database structures, manage data, write queries, and implement data integrations. Also handled application testing, debugging, deployment configuration, and troubleshooting, focusing on maintainability, functionality, and user experience.'
+     },
     ],
   },
 }

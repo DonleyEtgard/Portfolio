@@ -91,15 +91,37 @@ export const content = {
     experience: {
       label: 'MI EXPERIENCIA', title: 'Experiencia profesional',
       items: [
-        { role: 'Soporte Técnico', company: 'UAI Lab', period: 'Abr 2025 – Actualidad', description: 'Brindo asistencia técnica presencial a estudiantes y docentes; realizo mantenimiento de PC y dispositivos NUC; diagnostico problemas de hardware, software, periféricos y redes básicas; documento incidentes y hago seguimiento de solicitudes.' },
+        { role: 'Soporte Técnico', company: 'UAI', period: 'Abr 2025 – Actualidad', description: 'Brindo asistencia técnica presencial a estudiantes y docentes; realizo mantenimiento de PC y dispositivos NUC; diagnostico problemas de hardware, software, periféricos y redes básicas; documento incidentes y hago seguimiento de solicitudes.' },
         { role: 'Help Desk N1', company: 'Metrickal – Cianio', period: 'Nov 2024 – Mar 2025', description: 'Asistí a usuarios y clientes con el uso de sistemas y problemas de conectividad, realicé diagnósticos de primer nivel, gestioné tickets y escalé incidentes cuando fue necesario.' },
+       {
+       role: 'Software Developer – Freelancer',
+       company: 'Freelance',
+       period: '2025 – Present',
+       description: 'Desarrollé soluciones de software a medida, incluyendo sistemas ERP y plataformas Marketplace. Trabajé en el diseño e implementación de funcionalidades, integración y gestión de bases de datos, desarrollo frontend y backend, APIs REST y optimización de procesos.'
+},
       ],
     },
-    education: {
-      label: 'FORMACIÓN Y COMUNICACIÓN', title: 'Educación e idiomas',
-      degree: 'Ingeniería en Sistemas', institution: 'Universidad Abierta Interamericana (UAI)', status: 'Estudiante avanzado · 2022 – Actualidad',
-      languages: [{ name: 'Español', level: 'Avanzado' }, { name: 'Inglés', level: 'Profesional' }, { name: 'Francés', level: 'Nativo' }, { name: 'Criollo haitiano', level: 'Nativo' }],
-    },
+   education: {
+        label: 'FORMACIÓN Y COMUNICACIÓN',
+        title: 'Educación e idiomas',
+        degree: 'Ingeniería en Sistemas Informáticos',
+        institution: 'Universidad Abierta Interamericana (UAI)',
+        status: 'Estudiante avanzado · 2022 – Actualidad',
+        description: 'Formación orientada al análisis, diseño y desarrollo de sistemas informáticos, ingeniería de software, gestión de bases de datos y resolución de problemas tecnológicos.',
+  details: [
+    'Desarrollo de software: C#, .NET, JavaScript, TypeScript, React y Node.js.',
+    'Bases de datos: SQL Server, PostgreSQL, MySQL y MongoDB.',
+    'Análisis y diseño de sistemas: UML, relevamiento de requerimientos y modelado de procesos.',
+    'Ingeniería de software: arquitectura, metodologías de desarrollo, testing y documentación.',
+    'Redes y seguridad informática: infraestructura, conectividad y fundamentos de ciberseguridad.',
+  ],
+  languages: [
+    { name: 'Español', level: 'Avanzado' },
+    { name: 'Inglés', level: 'Profesional' },
+    { name: 'Francés', level: 'Nativo' },
+    { name: 'Criollo haitiano', level: 'Nativo' },
+  ],
+},
     contact: {
       label: 'CONECTEMOS', title: '¿Tenés un proyecto u oportunidad en mente?',
       description: 'Me interesan oportunidades en desarrollo de software, análisis de sistemas y soporte técnico. No dudes en contactarme.',
@@ -131,7 +153,7 @@ export const projectScreenshots = {
 
 export const skillGroups = [
   { title: 'Frontend', items: ['React', 'TypeScript', 'JavaScript', 'HTML5', 'Vue.js', 'CSS3', 'Tailwind', 'Material UI', 'Bootstrap','PWA'] },
-  { title: 'Backend', items: ['C#', 'ASP.NET Core', 'Node.js', 'Express.js', 'JavaScript', 'REST APIs', 'Python'] },
+  { title: 'Backend', items: ['C#', 'ASP.NET Core', 'Node.js', 'Express.js', 'JavaScript','TypeScript', 'REST APIs', 'Python'] },
   { title: 'Databases', items: ['SQL Server', 'PostgreSQL', 'MySQL', 'MongoDB', 'Azure SQL', 'Firebase'] },
-  { title: 'Tools & practices', items: ['Git & GitHub', 'Visual Studio', 'VS Code', 'Render','Railway', 'Vercel', 'UML', 'Troubleshooting', 'Postman', 'AI-assisted workflows'] },
+  { title: 'Tools & practices', items: ['Git & GitHub', 'Visual Studio', 'VS Code', 'Render','Railway', 'Vercel', 'UML','Software Developer', 'Troubleshooting', 'Postman', 'AI-assisted workflows'] },
 ]
