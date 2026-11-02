@@ -1,0 +1,87 @@
+.resume-app{min-height:100vh;padding:24px 0 56px;color:var(--text)}
+.resume-toolbar{width:min(1000px,calc(100% - 40px));margin:0 auto 22px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.resume-home-link,.resume-toolbar-link,.resume-toolbar-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:40px;border:1px solid var(--line);border-radius:9px;padding:0 13px;color:var(--text);font-size:12px;white-space:nowrap;transition:border-color .2s,color .2s,background .2s}
+.resume-home-link:hover,.resume-toolbar-link:hover,.resume-toolbar-button:hover{border-color:var(--purple);color:var(--purple)}
+.resume-toolbar-actions{display:flex;align-items:center;gap:9px}
+.resume-toolbar-button{background:var(--surface);font:600 12px 'DM Sans',sans-serif;cursor:pointer}
+.resume-document{width:min(1000px,calc(100% - 40px));margin:0 auto;padding:42px;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 24px 80px #0005}
+.resume-header{padding-bottom:25px;border-bottom:1px solid var(--line)}
+.resume-eyebrow{margin:0 0 9px;color:var(--purple);font-size:10px;font-weight:700;letter-spacing:2px}
+.resume-header h1{max-width:none;margin:0;font-size:clamp(28px,4vw,40px);line-height:1.15;letter-spacing:-1.6px}
+.resume-headline{margin:9px 0 0;color:var(--muted);font-size:13px;line-height:1.6}
+.resume-columns{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.55fr);gap:30px;padding-top:27px}
+.resume-sidebar{padding-right:25px;border-right:1px solid var(--line)}
+.resume-section{margin:0 0 25px}
+.resume-section:last-child{margin-bottom:0}
+.resume-section h2{margin:0 0 12px;padding-bottom:8px;border-bottom:1px solid var(--line);font-size:15px;letter-spacing:-.25px}
+.resume-contact-list,.resume-list{list-style:none;padding:0;margin:0}
+.resume-contact-list li{margin:0 0 11px;overflow-wrap:anywhere}
+.resume-contact-list li:last-child{margin-bottom:0}
+.resume-contact-list li>span{display:block;margin-bottom:3px;color:var(--muted);font-size:10px}
+.resume-contact-list a,.resume-contact-list p,.resume-list li{margin:0;color:#d9d8e2;font-size:11px;line-height:1.55;overflow-wrap:anywhere}
+.resume-contact-list a:hover{color:var(--purple)}
+.resume-list li{margin-bottom:6px}
+.resume-list li:last-child{margin-bottom:0}
+.resume-entries{display:grid;gap:16px}
+.resume-entry{break-inside:avoid;page-break-inside:avoid}
+.resume-entry-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.resume-entry h3,.resume-skill-group h3{margin:0;color:#e8e7ef;font:600 12px/1.45 'DM Sans',sans-serif}
+.resume-entry-subtitle{display:block;margin:3px 0 0;color:var(--purple);font-size:10px;line-height:1.5;overflow-wrap:anywhere}
+.resume-period{flex-shrink:0;color:var(--muted);font-size:10px;line-height:1.5;text-align:right}
+.resume-entry-description,.resume-profile{margin:7px 0 0;color:#c1c0cc;font-size:11px;line-height:1.7}
+.resume-profile{margin:0}
+.resume-skill-groups{display:grid;gap:11px}
+.resume-skill-group p{margin:4px 0 0;color:#c1c0cc;font-size:10px;line-height:1.65;overflow-wrap:anywhere}
+@media(max-width:700px){
+  .resume-app{padding-top:15px}
+  .resume-toolbar{width:calc(100% - 28px);align-items:flex-start;margin-bottom:14px}
+  .resume-toolbar-actions{justify-content:flex-end;flex-wrap:wrap;gap:7px}
+  .resume-home-link,.resume-toolbar-link,.resume-toolbar-button{min-height:36px;padding:0 10px;font-size:11px}
+  .resume-document{width:calc(100% - 28px);padding:26px 22px;border-radius:12px}
+  .resume-columns{grid-template-columns:minmax(0,1fr);gap:0}
+  .resume-sidebar{display:contents}
+  .resume-main{display:contents}
+  .resume-section{margin-bottom:22px}
+  .resume-sidebar>.resume-section:first-child{order:0}
+  .resume-sidebar>.resume-section:nth-child(2){order:1}
+  .resume-main>.resume-section:first-child{order:2}
+  .resume-sidebar>.resume-section:nth-child(3){order:3}
+  .resume-sidebar>.resume-section:nth-child(4){order:4}
+  .resume-sidebar>.resume-section:nth-child(5){order:5}
+  .resume-main>.resume-section:nth-child(2){order:6}
+}
+@media(max-width:430px){
+  .resume-toolbar{flex-wrap:wrap}
+  .resume-toolbar-actions{width:100%;justify-content:flex-start}
+  .resume-document{padding:22px 18px}
+  .resume-header h1{font-size:27px;letter-spacing:-1px}
+  .resume-entry-heading{gap:7px}
+  .resume-period{max-width:90px}
+}
+@page{size:A4;margin:0}
+@media print{
+  html,body,#root{width:100%;min-width:0;margin:0;background:#fff!important}
+  .resume-app{min-height:0;padding:0;background:#fff!important;color:#111!important}
+  .resume-toolbar{display:none!important}
+  .resume-document{width:210mm;max-width:none;margin:0;padding:12mm 13mm;background:#fff!important;border:0;border-radius:0;box-shadow:none}
+  .resume-header{padding-bottom:6mm;border-color:#aaa}
+  .resume-eyebrow{color:#333!important}
+  .resume-header h1{color:#111!important;font-size:24pt}
+  .resume-headline{color:#333!important;font-size:9pt}
+  .resume-columns{grid-template-columns:minmax(0,.78fr) minmax(0,1.55fr);gap:7mm;padding-top:6mm}
+  .resume-sidebar{display:block;padding-right:5mm;border-color:#aaa}
+  .resume-main{display:block}
+  .resume-section{margin-bottom:5mm;break-inside:avoid;page-break-inside:avoid}
+  .resume-section h2{color:#111!important;border-color:#aaa;font-size:10pt}
+  .resume-contact-list li>span,.resume-period{color:#444!important}
+  .resume-contact-list a,.resume-contact-list p,.resume-list li,.resume-entry h3,.resume-skill-group h3,.resume-skill-group p,.resume-entry-description,.resume-profile{color:#111!important}
+  .resume-contact-list a,.resume-entry-subtitle{color:#222!important;text-decoration:none}
+  .resume-contact-list a,.resume-contact-list p,.resume-list li,.resume-entry-subtitle,.resume-period,.resume-skill-group p{font-size:7.5pt}
+  .resume-entry h3,.resume-skill-group h3{font-size:8pt}
+  .resume-entry-description,.resume-profile{font-size:8pt;line-height:1.5}
+  .resume-entries{gap:3mm}
+  .resume-skill-groups{gap:2.5mm}
+  .resume-list li{margin-bottom:1mm}
+  .resume-contact-list li{margin-bottom:2mm}
+  *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+}
