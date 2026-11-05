@@ -43,8 +43,9 @@ export const content = {
     experience: {
       label: 'WHERE I HAVE CONTRIBUTED', title: 'Professional experience',
       items: [
-        { role: 'Technical Support', company: 'UAI Lab', period: 'Apr 2025 – Present', description: 'Provide on-site technical assistance to students and faculty; maintain PCs and NUC devices; troubleshoot hardware, software, peripherals and basic network issues; document incidents and follow up on requests.' },
+        { role: 'Technical Support', company: 'UAI', period: 'Apr 2025 – Present', description: 'Provide on-site technical assistance to students and faculty; maintain PCs and NUC devices; troubleshoot hardware, software, peripherals and basic network issues; document incidents and follow up on requests.' },
         { role: 'Help Desk N1', company: 'Metrickal – Cianio', period: 'Nov 2024 – Mar 2025', description: 'Assisted users and clients with system usage and connectivity issues, performed first-level troubleshooting, managed support tickets and escalated incidents when required.' },
+        { role: 'Full Stack Software Developer', company: 'Freelance', period: 'Apr 2025 – Present', description: 'Designed and developed custom software solutions and web applications for independent projects, including an ERP management system and a multi-category Marketplace platform. Worked across frontend and backend development. Designed and integrated REST APIs, implemented business logic, and developed features for user authentication, role-based access control, dashboards, inventory, sales, billing, and subscription management.'},
       ],
     },
     education: {
@@ -98,7 +99,7 @@ export const content = {
        company: 'Freelance',
        period: '2025 – Present',
        description: 'Desarrollé soluciones de software a medida, incluyendo sistemas ERP y plataformas Marketplace. Trabajé en el diseño e implementación de funcionalidades, integración y gestión de bases de datos, desarrollo frontend y backend, APIs REST y optimización de procesos.'
-},
+       },
       ],
     },
    education: {

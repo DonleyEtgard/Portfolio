@@ -9,7 +9,7 @@ export default function Navbar({ language, setLanguage, nav }: Props) {
     ['about', 'about'], ['skills', 'skills'], ['projects', 'projects'], ['experience', 'experience'], ['contact', 'contact'],
   ] as const
   return <header className="site-header"><nav className="nav container">
-    <a className="brand" href="#home" aria-label="Home">DE<span>.</span></a>
+    <a className="brand" href="#home" aria-label="Home">DEM<span>.</span></a>
     <div className={`nav-links ${open ? 'is-open' : ''}`}>
       {links.map(([key, id]) => <a key={key} href={`#${id}`} onClick={() => setOpen(false)}>{nav[key]}</a>)}
     </div>
